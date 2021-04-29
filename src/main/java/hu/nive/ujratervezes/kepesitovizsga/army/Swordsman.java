@@ -14,11 +14,12 @@ public class Swordsman extends MilitaryUnit {
         return 10;
     }
 
-    public void sufferendDamage(){
+    public void sufferDamage(int damage){
         counter = counter + 1;
         if (counter == 1){
-            sufferedDamage() ;
+           this.lifeScore = this.lifeScore;
         }
+        super.sufferDamage(damage);
 
     }
 }
