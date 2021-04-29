@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.kepesitovizsga.jurassic;
+ package hu.nive.ujratervezes.kepesitovizsga.jurassic;
 
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
@@ -37,6 +37,5 @@ class JurassicParkTest {
     void test_check() {
         assertEquals(List.of("Hypsilophodontida", "Maiasaurus", "Velociraptor"), jurassicPark.checkOverpopulation());
     }
-
 
 }
